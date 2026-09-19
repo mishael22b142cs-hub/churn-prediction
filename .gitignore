@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/*.csv
+data/*.pkl
+
+# Models
+models/*
+!models/.gitkeep
+
+# Results (keep folder tracked via .gitkeep, but ignore generated pngs if desired)
+# results/*.png
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
